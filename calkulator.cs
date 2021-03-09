@@ -6,4 +6,4 @@ class calkulator
 		int b=6;
 		
 		Console.WriteLine("Hasil penambahan: 
-		
+		edit
