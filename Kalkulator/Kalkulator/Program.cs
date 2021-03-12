@@ -33,7 +33,8 @@ namespace Calculator
             else if (selectMenu == 2) Console.WriteLine($"Hasil pengurangan dari {a} - {b} = {Pengurangan(a, b)}");
             else if (selectMenu == 3) Console.WriteLine($"Hasil perkalian dari {a} * {b} = {Perkalian(a, b)}");
             else Console.WriteLine($"Hasil pembagian dari {a} / {b} = {Pembagian(a, b)}");
-
+            Console.WriteLine();
+            Console.WriteLine("=================== D O N E ==================");
             ExitProgram();
         }
 
@@ -50,7 +51,6 @@ namespace Calculator
             Console.WriteLine();
             Console.WriteLine("=====================================");
             Console.Write("Silakan masukan pilihan anda 1-4: ");
-         
 
             return int.Parse(Console.ReadLine());
         }
@@ -58,7 +58,7 @@ namespace Calculator
         static int Penambahan(int a, int b) => a + b;
         static int Pengurangan(int a, int b) => a - b;
         static int Perkalian(int a, int b) => a * b;
-        static float Pembagian(int a, int b) => (float)a / b;
+        static double Pembagian(int a, int b) => (double)a / b;
         static void ExitProgram()
         {
             Console.WriteLine();
@@ -69,3 +69,4 @@ namespace Calculator
         }
     }
 }
+
