@@ -17,7 +17,7 @@ namespace Calculator
             {
                 Console.WriteLine();
                 Console.WriteLine("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-                Console.WriteLine("Maaf, menu yang anda pilih tidak tersedia");
+                Console.WriteLine("Maaf, menu yang anda pilih tidak tersedia!");
                 Console.WriteLine("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
                 ExitProgram();
             }
